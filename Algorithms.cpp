@@ -10,6 +10,8 @@ void Algorithms::print(vector<int>& list, unsigned int counter)
 	for (int i = 0; i < list.size() - 1; i++) {
 		cout << "\033[" << ctr << "m" << list.at(i) << "\033[0m" << " , ";
 		ctr++;
+		if (ctr == 37)
+			ctr = 91;
 	}
 	cout << "\033[" << ctr << "m" << list.at(list.size() - 1) << "\033[0m" << " }" << endl;
 	if (sorted(list)) {

@@ -23,7 +23,7 @@ int main()
 		cin >> tmp2;
 		list.push_back(tmp2);
 	}
-	cout << "Color outputs may appear diffrent or not work on macOS!"<<endl;
+	cout << "Color outputs may appear diffrent or not work on macOS!";
 	cout << "Choose the desired Algorithm :- \n1) BogoSort\n2) BozoSort \n0) Exit" << endl;
 	cin >> tmp;
 	while (tmp != 0) {
