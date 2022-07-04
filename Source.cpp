@@ -12,7 +12,7 @@ int main()
 
 	//vector<int> list = { 3,4,1,2,5,0,7,9,8 };
 
-	cout << "Enter the number of elements in the list";
+	cout << "Enter the number of elements in the list ";
 	int n,tmp2;
 	cin >> n;
 	vector<int> list;

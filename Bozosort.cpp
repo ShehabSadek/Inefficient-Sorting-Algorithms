@@ -15,7 +15,7 @@ void Bozosort::shuffle(vector<int>& list)
 {
 	srand(time(0));
 	int r1, r2, tmp;
-	r1 = (rand() + (counter % (list.size() / (5)))) % list.size();
+	r1 = (rand() + (counter % list.size() )) % list.size();
 	r2 = (rand() + (counter * rand())) % list.size();
 	if (r1 == r2) {
 		r2 = (rand() + (1 + counter * rand())) % list.size();

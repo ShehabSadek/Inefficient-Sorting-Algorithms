@@ -20,7 +20,7 @@ void Algorithms::print(vector<int>& list, unsigned int counter)
 }
 bool Algorithms::sorted(vector<int>& list) {
 	for (int i = 0; i < list.size() - 1; i++) {
-		if (!(list.at(i) < list.at(i + 1))) {
+		if (!(list.at(i) <= list.at(i + 1))) {
 			return false;
 		}
 	}
